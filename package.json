@@ -1,0 +1,30 @@
+{
+  "name": "wa_direct",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://supirman.github.io/WADirect",
+  "devDependencies": {
+    "react-scripts": "0.9.5",
+    "react-toolbox-themr": "^1.0.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-toolbox": "^2.0.0-beta.7"
+  },
+  "reactToolbox": {
+    "customProperties": {
+      "color-accent": "var(--palette-pink-a200)",
+      "color-accent-dark": "var(--palette-pink-700)",
+      "color-primary": "var(--palette-teal-500)",
+      "color-primary-dark": "var(--palette-teal-900)"
+    }
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "toolbox": "react-toolbox-themr"
+  }
+}
